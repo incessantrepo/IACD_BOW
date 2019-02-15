@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <versionUuid>_a-0000e15f-291f-8000-d194-01ef9001ef90_103840</versionUuid>
     <application>
         <name>Employee Management System</name>
         <uuid>_a-0001dda0-2f73-8000-aae2-01ef9001ef90_16204</uuid>
@@ -52,7 +51,6 @@
                         <uuid>_e-0000dda0-2f7f-8000-aae2-011e94011e94_110</uuid>
                         <uuid>_e-0000dda0-2f7f-8000-aae2-011e94011e94_111</uuid>
                         <uuid>SYSTEM_GROUP_ROLE_QUICK_APP_CREATORS</uuid>
-                        <uuid>_e-0000e15f-2909-8000-d191-011e94011e94_735</uuid>
                     </uuids>
                 </item>
                 <item>
@@ -132,15 +130,10 @@
                         <uuid>_a-0000e0d5-aa1e-8000-3120-01ef9001ef90_13878</uuid>
                         <uuid>_a-0000e0d5-aa1e-8000-3120-01ef9001ef90_13928</uuid>
                         <uuid>_a-0000e0d5-aa1e-8000-3120-01ef9001ef90_13929</uuid>
-                        <uuid>_a-0000e15f-291f-8000-d194-01ef9001ef90_103204</uuid>
-                        <uuid>_a-0000e15f-291f-8000-d194-01ef9001ef90_103309</uuid>
-                        <uuid>_a-0000e15f-291f-8000-d194-01ef9001ef90_103429</uuid>
-                        <uuid>_a-0000e15f-291f-8000-d194-01ef9001ef90_103436</uuid>
-                        <uuid>_a-0000e15f-291f-8000-d194-01ef9001ef90_103507</uuid>
-                        <uuid>_a-0000e15f-291f-8000-d194-01ef9001ef90_103630</uuid>
-                        <uuid>_a-0000e15f-291f-8000-d194-01ef9001ef90_103740</uuid>
-                        <uuid>_a-0000e15f-291f-8000-d194-01ef9001ef90_103829</uuid>
-                        <uuid>_a-0000e15f-291f-8000-d194-01ef9001ef90_103835</uuid>
+                        <uuid>_a-0000e214-8137-8000-3120-01ef9001ef90_14851</uuid>
+                        <uuid>_a-0000e214-8137-8000-3120-01ef9001ef90_14853</uuid>
+                        <uuid>_a-0000e214-8137-8000-3120-01ef9001ef90_14856</uuid>
+                        <uuid>_a-0000e214-8137-8000-3120-01ef9001ef90_14857</uuid>
                     </uuids>
                 </item>
                 <item>
@@ -161,8 +154,6 @@
                         <uuid>36b60c40-5a63-4d61-95eb-6a6d7e2906e4</uuid>
                         <uuid>e4fdb5a4-a34d-4066-87f0-df8a05c4093d</uuid>
                         <uuid>855d7c29-2bda-4272-baab-01f607b9bb04</uuid>
-                        <uuid>0002e218-c4aa-8000-d191-014d98014d98</uuid>
-                        <uuid>0002e219-0737-8000-d191-014d98014d98</uuid>
                     </uuids>
                 </item>
                 <item>
@@ -201,9 +192,7 @@
                 </item>
                 <item>
                     <type>webApi</type>
-                    <uuids>
-                        <uuid>177e8c58-77cc-4d43-9166-e348fa082225</uuid>
-                    </uuids>
+                    <uuids/>
                 </item>
                 <item>
                     <type>site</type>
@@ -219,14 +208,6 @@
                 </item>
                 <item>
                     <type>dataSource</type>
-                    <uuids/>
-                </item>
-                <item>
-                    <type>embeddedSailTheme</type>
-                    <uuids/>
-                </item>
-                <item>
-                    <type>connectedSystem</type>
                     <uuids/>
                 </item>
             </globalIdMap>
@@ -326,14 +307,6 @@
                     <type>dataSource</type>
                     <uuids/>
                 </item>
-                <item>
-                    <type>embeddedSailTheme</type>
-                    <uuids/>
-                </item>
-                <item>
-                    <type>connectedSystem</type>
-                    <uuids/>
-                </item>
             </globalIdMap>
         </associatedApplications>
     </application>
@@ -372,32 +345,4 @@
             </role>
         </contentRoleMap>
     </roleMap>
-    <history>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_71910"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_83110"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_96900"/>
-        <historyInfo versionUuid="cbbba507-6dc9-4261-bfe8-864966e5bdd6"/>
-        <historyInfo versionUuid="20a5a8bd-429e-454a-9c1b-8c921895eb29"/>
-        <historyInfo versionUuid="61f77ab6-2788-4d5a-ab66-8bdec128cd7e"/>
-        <historyInfo versionUuid="17016aef-2dd6-492d-952d-7f5e42ef5a81"/>
-        <historyInfo versionUuid="403d57de-6187-4411-8227-a12bd68522ad"/>
-        <historyInfo versionUuid="a1b2a5c8-980f-4132-8b52-6abaa4e9b8e7"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_98257"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_98381"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_98452"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_98869"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_99176"/>
-        <historyInfo versionUuid="e9ad4d88-3d5a-428e-8c47-6fd17be90b59"/>
-        <historyInfo versionUuid="d88b816d-ebba-494d-a517-2efc40284f98"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_99901"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_103094"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_103209"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_103314"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_103441"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_103519"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_103635"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_103745"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_103763"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_103840"/>
-    </history>
-</applicationHaul><!--updated on 2019-02-15T16:19:53.700-->
+</applicationHaul><!--updated on 2019-02-15T16:51:58.603-->

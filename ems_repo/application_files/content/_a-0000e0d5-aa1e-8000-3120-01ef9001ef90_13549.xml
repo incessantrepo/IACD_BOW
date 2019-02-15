@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <versionUuid>_a-0000e15f-291f-8000-d194-01ef9001ef90_102564</versionUuid>
     <rule>
         <name>TestExp</name>
         <uuid>_a-0000e0d5-aa1e-8000-3120-01ef9001ef90_13549</uuid>
@@ -45,11 +44,4 @@
             <groups/>
         </role>
     </roleMap>
-    <history>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_63722"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_82632"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_91999"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_97576"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_102564"/>
-    </history>
 </contentHaul>

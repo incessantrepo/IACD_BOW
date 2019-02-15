@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <versionUuid>_a-0000e15f-291f-8000-d194-01ef9001ef90_104048</versionUuid>
     <rule>
         <name>EMS_CreateChartSeries</name>
         <uuid>_a-0001dda0-2f73-8000-aae2-01ef9001ef90_16222</uuid>
@@ -16,30 +15,10 @@
             <unlogged>false</unlogged>
         </visibility>
         <definition>#"SYSTEM_SYSRULES_chartSeries"(
-  label: index(
-    index(
-      ri!data,
-      ri!field,
-      null
-    ),
-    "value",
-    null
-  ),
-  data: index(
-    ri!data,
-    "id",
-    null
-  ),
+  label: index(index(ri!data, ri!field, null), "value", null),
+  data: index(ri!data, "id", null),
   links: #"SYSTEM_SYSRULES_dynamicLink"(
-    value: index(
-      index(
-        ri!data,
-        ri!field,
-        null
-      ),
-      "value",
-      null
-    ),
+    value: index(index(ri!data, ri!field, null), "value", null),
     saveInto: ri!linkSaveInto
   )
 )</definition>
@@ -94,11 +73,4 @@
             <groups/>
         </role>
     </roleMap>
-    <history>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_71747"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_82935"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_92329"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_102903"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_104048"/>
-    </history>
 </contentHaul>

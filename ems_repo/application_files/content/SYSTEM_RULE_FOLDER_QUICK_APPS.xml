@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <versionUuid>_a-0000e15f-291f-8000-d194-01ef9001ef90_100026</versionUuid>
     <rulesFolder>
         <name>Quick Apps Rules and Constants</name>
         <uuid>SYSTEM_RULE_FOLDER_QUICK_APPS</uuid>
@@ -44,10 +43,4 @@
             <groups/>
         </role>
     </roleMap>
-    <history>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_69380"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_80361"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_89562"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_100026"/>
-    </history>
 </contentHaul>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <versionUuid>_a-0000e15f-291f-8000-d194-01ef9001ef90_104117</versionUuid>
     <rule>
         <name>EMS_SendTask</name>
         <uuid>_a-0001dda0-2f73-8000-aae2-01ef9001ef90_16252</uuid>
@@ -15,15 +14,11 @@
             <system>false</system>
             <unlogged>false</unlogged>
         </visibility>
-        <definition>= #"SYSTEM_SYSRULES_formLayout"(
+        <definition>=#"SYSTEM_SYSRULES_formLayout"(
   label: if(
-    isnull(
-      ri!recordId
-    ),
+    isnull(ri!recordId),
     "Send Task",
-    "Send Task from " &amp; #"8ce86692-a813-43e9-a433-b3216531dc5f_GETONERECORD"(
-      ri!recordId
-    ).employeeName
+    "Send Task from " &amp; #"8ce86692-a813-43e9-a433-b3216531dc5f_GETONERECORD"(ri!recordId).employeeName
   ),
   instructions: "Details of this record will be embedded in the task form",
   firstColumnContents: {
@@ -31,13 +26,8 @@
       label: "Assignee",
       instructions: if(
         or(
-          isnull(
-            ri!assignee
-          ),
-          isusermemberofgroup(
-            ri!assignee,
-            #"_a-0001dda0-2f73-8000-aae2-01ef9001ef90_16212"
-          )
+          isnull(ri!assignee),
+          isusermemberofgroup(ri!assignee, #"_a-0001dda0-2f73-8000-aae2-01ef9001ef90_16212")
         ),
         "",
         "This user is not in the Collaborators group. If you send a task to them, they will be given access to this application."
@@ -50,15 +40,7 @@
     #"SYSTEM_SYSRULES_paragraphField"(
       label: "Task Description",
       labelPosition: "ABOVE",
-      validations: if(
-        len(
-          ri!taskDetails
-        ) &gt; 4000,
-        "Message may not be longer than 4000 characters. You have entered " &amp; len(
-          ri!taskDetails
-        ) &amp; " characters.",
-        ""
-      ),
+      validations: if(len(ri!taskDetails)&gt;4000, "Message may not be longer than 4000 characters. You have entered " &amp; len(ri!taskDetails) &amp; " characters.", ""),
       value: ri!taskDetails,
       saveInto: ri!taskDetails,
       required: true
@@ -81,26 +63,15 @@
         style: "PRIMARY",
         confirmMessage: if(
           or(
-            isnull(
-              ri!assignee
-            ),
-            isusermemberofgroup(
-              ri!assignee,
-              #"_a-0001dda0-2f73-8000-aae2-01ef9001ef90_16212"
-            )
+            isnull(ri!assignee),
+            isusermemberofgroup(ri!assignee, #"_a-0001dda0-2f73-8000-aae2-01ef9001ef90_16212")
           ),
           "",
           "Are you sure you want to send a task to this user? They will receive access to all functionality in the Employee Management System application."
         ),
         saveInto: {
-          a!save(
-            ri!taskedOn,
-            now()
-          ),
-          a!save(
-            ri!taskFrom,
-            loggedinuser()
-          )
+          a!save(ri!taskedOn, now()),
+          a!save(ri!taskFrom, loggedinuser())
         }
       )
     },
@@ -165,7 +136,6 @@
                 <namespace>http://www.w3.org/2001/XMLSchema</namespace>
             </type>
         </namedTypedValue>
-        <metadataExpr></metadataExpr>
         <preferredEditor>interface</preferredEditor>
         <offlineEnabled>false</offlineEnabled>
     </rule>
@@ -195,11 +165,4 @@
             <groups/>
         </role>
     </roleMap>
-    <history>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_70315"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_81365"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_90640"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_101128"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_104117"/>
-    </history>
 </contentHaul>

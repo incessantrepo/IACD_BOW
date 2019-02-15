@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <versionUuid>_a-0000e15f-291f-8000-d194-01ef9001ef90_102809</versionUuid>
     <rule>
         <name>EMS_CountOccurrencesInArray</name>
         <uuid>_a-0001dda0-2f73-8000-aae2-01ef9001ef90_16223</uuid>
@@ -63,10 +62,4 @@
             <groups/>
         </role>
     </roleMap>
-    <history>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_71667"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_82849"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_92237"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_102809"/>
-    </history>
 </contentHaul>

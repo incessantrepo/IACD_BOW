@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
     <rule>
-        <name>EMS_GetAllDepartment</name>
-        <uuid>_a-0001dda0-2f73-8000-aae2-01ef9001ef90_16265</uuid>
-        <description>Returns all department options for EMS</description>
+        <name>EMS_TestForPatch</name>
+        <uuid>_a-0000e214-8137-8000-3120-01ef9001ef90_14856</uuid>
+        <description></description>
         <parentUuid>41327b2c-a17c-4e00-8f1f-6e5ff91cb2fb</parentUuid>
         <visibility>
             <advertise>false</advertise>
@@ -14,19 +14,11 @@
             <system>false</system>
             <unlogged>false</unlogged>
         </visibility>
-        <definition>cast(
-  'type!{urn:com:appian:types:EMS}EMS_Department?list',
-  #"SYSTEM_SYSRULES_queryEntity"(
-    entity: #"_a-0001dda0-2f73-8000-aae2-01ef9001ef90_16260",
-    query: #"SYSTEM_SYSRULES_query"(
-      pagingInfo: #"SYSTEM_SYSRULES_pagingInfo"(1, -1, #"SYSTEM_SYSRULES_sortInfo"("order", true))
-    )
-  ).data
-)</definition>
+        <definition></definition>
         <preferredEditor>legacy</preferredEditor>
         <offlineEnabled>false</offlineEnabled>
     </rule>
-    <roleMap public="false">
+    <roleMap public="true">
         <role inherit="true" allowForAll="false" name="readers">
             <users/>
             <groups/>

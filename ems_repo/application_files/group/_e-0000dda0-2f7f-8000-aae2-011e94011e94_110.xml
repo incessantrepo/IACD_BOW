@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <groupHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <versionUuid>_e-0000e15f-2909-8000-d191-011e94011e94_731</versionUuid>
     <group>
         <name>Employee Management System Collaborators</name>
         <securityMap>SECURITYMAP_TEAM</securityMap>
@@ -24,10 +23,4 @@
         </groups>
     </admins>
     <ruleSet/>
-    <history>
-        <historyInfo versionUuid="_e-0000e15f-2909-8000-d191-011e94011e94_513"/>
-        <historyInfo versionUuid="_e-0000e15f-2909-8000-d191-011e94011e94_617"/>
-        <historyInfo versionUuid="_e-0000e15f-2909-8000-d191-011e94011e94_653"/>
-        <historyInfo versionUuid="_e-0000e15f-2909-8000-d191-011e94011e94_731"/>
-    </history>
 </groupHaul>

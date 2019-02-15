@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <processModelFolderHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <versionUuid>_g-0000e15f-291e-8000-d191-014d98014d98_211</versionUuid>
     <processModelFolder>
         <name>EMS Models</name>
         <uuid>921e1880-f66f-4e42-831e-d80b176f2556</uuid>
@@ -36,10 +35,4 @@
             <groups/>
         </role>
     </roleMap>
-    <history>
-        <historyInfo versionUuid="_g-0000e15f-291e-8000-d191-014d98014d98_140"/>
-        <historyInfo versionUuid="_g-0000e15f-291e-8000-d191-014d98014d98_172"/>
-        <historyInfo versionUuid="_g-0000e15f-291e-8000-d191-014d98014d98_184"/>
-        <historyInfo versionUuid="_g-0000e15f-291e-8000-d191-014d98014d98_211"/>
-    </history>
 </processModelFolderHaul>

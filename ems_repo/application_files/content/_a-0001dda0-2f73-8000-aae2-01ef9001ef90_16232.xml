@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <versionUuid>_a-0000e15f-291f-8000-d194-01ef9001ef90_103828</versionUuid>
     <rule>
         <name>EMS_FormatMultipleChild</name>
         <uuid>_a-0001dda0-2f73-8000-aae2-01ef9001ef90_16232</uuid>
@@ -19,11 +18,7 @@
   reduce(
     fn!index,
     ri!data,
-    {
-      ri!index,
-      ri!field,
-      "value"
-    },
+    {ri!index, ri!field, "value"},
     null
   ),
   ", "
@@ -79,11 +74,4 @@
             <groups/>
         </role>
     </roleMap>
-    <history>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_71787"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_82978"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_92375"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_102950"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_103828"/>
-    </history>
 </contentHaul>

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <versionUuid>_a-0000e15f-291f-8000-d194-01ef9001ef90_104113</versionUuid>
     <constant>
         <name>EMS_E_M_S_DSE</name>
         <uuid>7bb0bbb8-4ea0-4b9a-8dba-bfdd2371b664_MAINDSECONSTANT</uuid>
-        <description>Data store entity for EMS          </description>
+        <description>Data store entity for EMS</description>
         <parentUuid>41327b2c-a17c-4e00-8f1f-6e5ff91cb2fb</parentUuid>
         <visibility>
             <advertise>false</advertise>
@@ -50,11 +49,4 @@
             <groups/>
         </role>
     </roleMap>
-    <history>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_70115"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_81150"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_90408"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_100890"/>
-        <historyInfo versionUuid="_a-0000e15f-291f-8000-d194-01ef9001ef90_104113"/>
-    </history>
 </contentHaul>
